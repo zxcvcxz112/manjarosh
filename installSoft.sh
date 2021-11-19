@@ -55,7 +55,7 @@ sudo pacman -S --noconfirm --needed wine-mono
 pacman -S --noconfirm --needed yay
 yay --aururl "https://aur.tuna.tsinghua.edu.cn" --save
 #安装WPS全家桶
-yay -S wps-office
+yay -S --noconfirm --needed wps-office
 #安装java
 
 sudo pacman -S --noconfirm --needed jdk11-openjdk
