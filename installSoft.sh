@@ -1,12 +1,12 @@
 #安装搜狗拼音
-sudo pacman -S --noconfirm --needed fcitx fcitx-configtool fcitx-im kcm-fcitx
-cat >> /home/$(whoami)/.xprofile  <<EOF
+sudo pacman -S --noconfirm --needed fcitx fcitx-configtool fcitx-im kcm-fcitx;
+cat >> $(pwd)/.xprofile  <<EOF
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS="@im=fcitx"
 EOF
 
-cat > /home/$(whoami)/.config/user-dirs.dirs << EOF
+cat > ~/.config/user-dirs.dirs << EOF
 XDG_DESKTOP_DIR="$HOME/Desktop"
 XDG_DOWNLOAD_DIR="$HOME/Download"
 XDG_TEMPLATES_DIR="$HOME/Templates"
@@ -17,7 +17,7 @@ XDG_PICTURES_DIR="$HOME/Pictures"
 XDG_VIDEOS_DIR="$HOME/Videos"
 EOF
 
-cd /home/$(whoami)/
+cd ~/
 mv 公共 Public
 mv 桌面 Desktop
 mv 下载 Download
@@ -30,7 +30,7 @@ mv 模板 Templates
 
 
 #安装typora
-sudo pacman -S --noconfirm --needed typora
+sudo pacman -S --noconfirm --needed typora;
 #安装Krita
 #pacman -S --noconfirm --needed krita
 #安装gimp
