@@ -74,8 +74,8 @@ sudo pacman -S --noconfirm --needed intellij-idea-ultimate-edition # JAVA IDE
 #sudo pacman -S --noconfirm --needed visual-studio-code-bin # 宇宙第一IDE vscode
 #sudo pacman -S --noconfirm --needed qtcreator # 一款QT开发软件
 #sudo pacman -S --noconfirm --needed postman-bin
-sudo pacman -S --noconfirm --needed insomnia # REST模拟工具
-sudo pacman -S --noconfirm --needed gitkraken # GIT管理工具
+#sudo pacman -S --noconfirm --needed insomnia # REST模拟工具
+#sudo pacman -S --noconfirm --needed gitkraken # GIT管理工具
 sudo pacman -S --noconfirm --needed wireshark-qt # 抓包
 sudo pacman -S --noconfirm --needed zeal
 sudo pacman -S --noconfirm --needed gitkraken # Git 管理工具
@@ -84,7 +84,7 @@ sudo pacman -S --noconfirm --needed deepin-picker # 深度取色器
 sudo pacman -S --noconfirm --needed deepin-screen-recorder # 录屏软件，可以录制 Gif 或者 MP4 格式
 sudo pacman -S --noconfirm --needed deepin-screenshot # 深度截图
 sudo pacman -S --noconfirm --needed deepin-system-monitor; # 系统状态监控
-#yay -s deepin-wine-wechat # 微信
+yay -S --noconfirm --needed deepin-wine-wechat # 微信
 yay -S --noconfirm --needed com.qq.tim.spark; # QQ
 #安装基础工具
 sudo pacman -S --noconfirm --needed firefox
