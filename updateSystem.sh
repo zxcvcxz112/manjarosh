@@ -9,8 +9,8 @@ SigLevel = Never
 Server = http://mirrors.tuna.tsinghua.edu.cn/arch4edu/\$arch
 EOF
 #更新系统
-pacman -Syyu
-pacman -S archlinuxcn-keyring
+sudo pacman -S archlinuxcn-keyring
+sudo pacman -Syyu
 echo "请重启系统..."
 
 
