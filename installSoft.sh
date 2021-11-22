@@ -68,7 +68,7 @@ sudo pacman -S --noconfirm --needed make
 #sudo pacman -S --noconfirm --needed goland
 sudo pacman -S --noconfirm --needed vim
 #sudo pacman -S --noconfirm --needed maven
-sudo pacman -S --noconfirm --needed pycharm-professional # Python IDE
+sudo pacman -S --noconfirm --needed pycharm-community-edition# Python IDE
 sudo pacman -S --noconfirm --needed intellij-idea-ultimate-edition # JAVA IDE
 #sudo pacman -S --noconfirm --needed goland # Go IDE
 #sudo pacman -S --noconfirm --needed visual-studio-code-bin # 宇宙第一IDE vscode
